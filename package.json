@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build  --force",
+    "build": "pnpm install --force && pnpm run your-build-command",
     "lint": "eslint .",
     "preview": "vite preview"
   },
